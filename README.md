@@ -25,7 +25,7 @@
   <button class="button off" onclick="turnOff(4)">Turn LED 4 OFF</button><br>
 
   <script>
-    const ESP32_IP = "http://192.168.x.x"; // Replace with your ESP32 IP address
+    const ESP32_IP = "http://192.168.108.152"; // Replace with your ESP32 IP address
 
     function turnOn(led) {
       fetch(`${ESP32_IP}/turnon?led=${led}`)
